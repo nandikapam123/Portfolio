@@ -1,9 +1,9 @@
 /* Laboratory & field notebook: warm paper, serif text, ruled tables, no scripts needed for layout. */
 :root { --paper:#f3edd9; --ink:#24211b; --muted:#5f594a; --rule:#b9ae91; --red:#a8321f; --blue:#1d4f7a; --line:#b9ae91; --accent:#1d4f7a;
-  --serif: "Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif; --mono: "Courier New",Courier,monospace; }
+  --serif: "Dongle","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif; --mono: "Courier New",Courier,monospace; }
 * { box-sizing: border-box; }
 html { background: #e4dcc3; }
-body { margin: 0 auto; max-width: 860px; min-height: 100vh; background: var(--paper); color: var(--ink); font: 17px/1.7 var(--serif);
+body { margin: 0 auto; max-width: 860px; min-height: 100vh; background: var(--paper); color: var(--ink); font: 24px/1.4 var(--serif);
   border-left: 1px solid var(--rule); border-right: 1px solid var(--rule); box-shadow: 0 0 40px rgba(60,45,20,.18);
   background-image: linear-gradient(90deg, transparent 54px, rgba(168,50,31,.45) 54px, rgba(168,50,31,.45) 55px, transparent 55px, transparent 58px, rgba(168,50,31,.25) 58px, rgba(168,50,31,.25) 59px, transparent 59px); }
 a { color: var(--blue); text-underline-offset: 3px; } a:hover { color: var(--red); }
